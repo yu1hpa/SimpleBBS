@@ -1,0 +1,20 @@
+Hello, <%= @u %> (<a href="/logout">logout</a>)
+<p>
+<form method="post" action="/new">
+  <input type="text" name="entry" size=50 maxlength=100><br>
+  <input type="submit" value="Go">
+</form>
+
+<table>
+  <%= @t %>
+</table>
+
+<style>
+.page li {
+  padding: 2px;
+  display: inline;
+}
+</style>
+<p>
+  <%= @p %>
+</p>
